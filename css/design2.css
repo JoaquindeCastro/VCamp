@@ -1,0 +1,106 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+main {
+	margin: 20px;
+	overflow-x: hidden;
+}
+
+.course {
+	width: 30%;
+	margin: 0 2.5%;
+}
+
+.course-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.course-head {
+	width:100%;
+	background-color: white;
+	border: 1px solid lightgray;
+	display: flex;
+	flex-direction: column;
+	padding: 3px 12px;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+}
+
+.course-content {
+	padding: 3px 12px;
+	background-color: white;
+	border: 1px solid lightgray;
+}
+
+.course-details {
+	color: gray;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.expand {
+	float: right;
+	margin: auto;
+	margin-right: 10px;
+	vertical-align: middle;
+	font-size: 24px;
+	background: transparent;
+	border: none;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+
+.expand:hover{
+	background-color: #044272;
+	color: white;
+}
+
+.title {
+	margin: 10px 0;
+}
+
+.title:hover {
+	text-decoration: underline;
+}
+
+
+span {
+	color: #044272;
+	margin: 0;
+}
+
+.button{
+	padding: 10px 12px;
+	border: 1px solid;
+}
+
+button.primary{
+	background-color: #044272;
+	color: white;
+}
+
+button.secondary{
+	color: #044272;
+	border-color: #044272;
+	background-color: white;
+}
+
+.bg-blue{
+	background-color: #044272;
+}
+
+.bg-red {
+	background-color: red;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/course.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav></nav>
+		<h1>BIM Essentials for Architectural Projects</h1>
+		<p style="color: white; font-weight: 100; font-size: 20px;">Essential knowledge and techniques in Building Information Modelling for small-scale to mid-scale architectural projects.</p>
+		<button class="button primary">Enroll Today</button>
+	</header>
+	<main>
+		<section>
+			<h2>Syllabus</h2>
+			<div class="topic">
+				<div class="topic-head">
+					<div class="row">
+						<h3 class="inline title">Topic 1: Grids, Levels, & Linking References</h3>
+						<button class="inline expand" id="topic-1" onclick="openContent(this)">+</button>
+					</div>
+					<h5 class="course-details">June 14, 10AM-12PM</h5>
+				</div>
+				<div class="course-content" id="content-1">
+					<ul>
+						<li>Familiarization with software command ribbons.</li>
+						<li>Setting-up the project.</li>
+						<li>Creating grids and levels.</li>
+						<li>Placing reference plans.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="topic">
+				<div class="topic-head">
+					<div class="row">
+						<h3 class="inline title">Topic 2: Architectural Modelling Elements</h3>
+						<button class="inline expand" id="topic-2" onclick="openContent(this)">+</button>
+					</div>
+					<h5 class="course-details">June 15, 10AM-12PM</h5>
+				</div>
+				<div class="course-content" id="content-2">
+					<ul>
+						<li>Familiarization with software command ribbons.</li>
+						<li>Setting-up the project.</li>
+						<li>Creating grids and levels.</li>
+						<li>Placing reference plans.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="topic">
+				<div class="topic-head">
+					<div class="row">
+						<h3 class="inline title">Topic 3: Architectural Finishes and Detailing</h3>
+						<button class="inline expand" id="topic-3" onclick="openContent(this)">+</button>
+					</div>
+					<h5 class="course-details">June 16, 10AM-12PM</h5>
+				</div>
+				<div class="course-content" id="content-3">
+					<ul>
+						<li>Familiarization with software command ribbons.</li>
+						<li>Setting-up the project.</li>
+						<li>Creating grids and levels.</li>
+						<li>Placing reference plans.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+	<aside class="sidebar">
+		<h3>Instructor</h3>
+		<div class="row" style="justify-content: flex-start;">
+			<img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="avatar">
+			<div style="margin-left: 10px;">
+				<h4 style="margin: 0;">Name of Instructor</h6>
+				<small>Credentials. Affiliations.</small>
+			</div>
+		</div>
+		<h3>Important Dates</h3>
+		<p>Some important details</p>
+	</aside>
+<script>
+	function openContent(elem) {
+		var id = elem.id.split('-')[1]
+		var contentId = "content" + "-" + id
+		var content = document.getElementById(contentId)
+		content.classList.toggle("show")
+	}
+</script>
+
+</body>
+</html>

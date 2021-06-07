@@ -1,0 +1,180 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+body {
+	padding:0;
+	margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+header {
+	height: 80vh;
+	width: 100vw;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 100px;
+	padding-right: 20vw; 
+	padding-left: 20vw; 
+	background-image: url('https://beta.escaknowledge.com/img/cover3.png');
+
+}
+
+main {
+	margin: 20px;
+	padding: 0;
+	overflow-x: hidden;
+	width: 60%;
+	display: inline-block;
+}
+
+.sidebar {
+	margin-top: 20px;
+	display: inline-block;
+	float: right;
+	width: 30%;
+}
+
+
+.topic {
+	width: 100%;
+}
+
+.icon {
+	font-size: 100px;
+}
+
+.topic-head {
+	width:100%;
+	background-color: white;
+	border: 1px solid lightgray;
+	display: flex;
+	flex-direction: column;
+	padding: 3px 12px;
+}
+
+.section.secondary {
+	text-align: center;
+	background-color: #D9F0FF;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+.display {
+	font-size: 72px;
+	margin: 10px;
+}
+
+p.light{
+	font-weight: 100; font-size: 20px;
+}
+
+p.light-header {
+	font-size: 21px;
+}
+
+.blue {
+	color: #044272;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.course-content {
+	height: 0;
+	max-height: 0;
+	overflow: hidden;
+	padding: 3px 12px;
+	background-color: white;
+	border: 1px solid lightgray;
+	transition: max-height 1.5s ease-in-out;
+}
+
+.course-content.show{
+	display: block;
+	height: auto;
+	max-height: 2000px;
+}
+
+.course-details {
+	color: gray;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.expand {
+	float: right;
+	margin: auto;
+	margin-right: 10px;
+	vertical-align: middle;
+	font-size: 24px;
+	background: transparent;
+	border: none;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+
+.expand:hover{
+	background-color: #044272;
+	color: white;
+}
+
+.title {
+	margin: 10px 0;
+}
+
+span {
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.bg-blue{
+	background-color: #044272;
+}
+
+.bg-red {
+	background-color: red;
+}
+
+.button{
+	padding: 10px 12px;
+	border: 2px solid;
+	font-size: 18px;
+}
+
+button.primary{
+	border-color: #044272;
+	background-color: #044272;
+	color: white;
+	opacity: 0.8;
+	transition: 1s;
+}
+button.primary:hover{
+	opacity: 1;
+}
+
+button.secondary{
+	color: #044272;
+	border-color: #044272;
+	background-color: white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/course.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;100&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/4b66da8e70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header style="height: 100vh;">
+		<nav></nav>
+		<h1 style="font-size: 52px;">BIM Essentials for Architectural Projects</h1>
+		<p class="light" style="font-size: 21px;">Essential knowledge and techniques in Building Information Modelling for small-scale to mid-scale architectural projects.</p>
+		<button class="button primary">Enroll Today</button>
+	</header>
+	<main style="width: 100%; margin:0;">
+		<section class="section secondary">
+			<h1 style="font-size: 38px;">Learner Outcomes</h1>
+			<div class="row">
+				<div>
+					<i class="fas fa-arrow-alt-circle-up icon blue"></i>
+					<h2 class="display blue">51%</h2>
+					<p class="light light-header blue">Received a promotion in their company</p>
+				</div>
+				<div>
+					<i class="fab fa-gratipay icon blue"></i>
+					<h2 class="display blue">96%</h2>
+					<p class="light light-header blue">Were satisfied with the course.</p>
+				</div>
+				<div>
+					<i class="fas fa-briefcase icon blue"></i>
+					<h2 class="display blue">37%</h2>
+					<p class="light light-header blue">Were hired in top BIM companies.</p>
+				</div>
+			</div>
+		</section>
+	</main>
+<script>
+	function openContent(elem) {
+		var id = elem.id.split('-')[1]
+		var contentId = "content" + "-" + id
+		var content = document.getElementById(contentId)
+		content.classList.toggle("show")
+	}
+</script>
+
+</body>
+</html>
