@@ -12,8 +12,10 @@ main {
 }
 
 .course {
+	display: inline-block;
+	float: left;
 	width: 30%;
-	margin: 10px 2.5%;
+	margin: 10px 1%;
 }
 
 .course-link {
